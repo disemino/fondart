@@ -1,0 +1,19 @@
+{
+  "name": "Fondart Token List",
+  "timestamp": "2025-10-10T12:00:00+00:00",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tokens": [
+    {
+      "chainId": 8453,
+      "address": "0xB62554FA36bF1702530430fbbDEC39B7F5B3d2D4",
+      "name": "Fondart",
+      "symbol": "FONDART",
+      "decimals": 18,
+      "logoURI": "https://www.fondart.xyz/fondart.png"
+    }
+  ]
+}
