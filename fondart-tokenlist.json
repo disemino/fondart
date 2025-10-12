@@ -1,11 +1,13 @@
 {
   "name": "Fondart Token List",
+  "logoURI": "https://www.fondart.xyz/fondart.png",
   "timestamp": "2025-10-10T12:00:00+00:00",
   "version": {
     "major": 1,
-    "minor": 0,
+    "minor": 1,
     "patch": 0
   },
+  "keywords": ["art", "utility", "amoarte", "base", "ecosystem"],
   "tokens": [
     {
       "chainId": 8453,
@@ -13,7 +15,61 @@
       "name": "Fondart",
       "symbol": "FONDART",
       "decimals": 18,
-      "logoURI": "https://www.fondart.xyz/fondart.png"
+      "logoURI": "https://www.fondart.xyz/fondart.png",
+      "tags": ["art", "utility", "ecosystem", "verified"],
+      "extensions": {
+        "project": "Fondart.xyz",
+        "platform": "Amoarte.net",
+        "website": "https://www.fondart.xyz",
+        "whitepaper": "https://www.fondart.xyz/white-paper-uk/",
+        "explorer": "https://basescan.org/token/0xB62554FA36bF1702530430fbbDEC39B7F5B3d2D4",
+        "launchDate": "2023-06-15",
+        "updateDate": "2025-10-12",
+        "status": "active",
+        "type": "utility",
+        "purpose": "ecosystem utility token for art certification, rewards, and platform access",
+        "nextPhase": "liquidity integration planned for 2026",
+        "maxSupply": "1000000000",
+        "totalSupply": "1000000000",
+        "lockedWallet": "0x0000000000000000000000000000000000000000",
+        "burnWallet": "0x000000000000000000000000000000000000dEaD",
+        "network": "Base Mainnet",
+        "chainId": 8453,
+        "tokenStandard": "ERC-20",
+        "audited": false,
+        "description": "Fondart is a utility token powering the Amoarte.net ecosystem. It supports art certification, digital provenance, rewards, and access utilities within a transparent blockchain environment on Base Mainnet. The token has a fixed supply and is not currently traded on any exchange.",
+        "social": {
+          "twitter": "https://twitter.com/amoartegallery",
+          "instagram": "https://www.instagram.com/amoarte_collection/",
+          "facebook": "https://www.facebook.com/amoartecollection/",
+          "github": "https://github.com/disemino/fondart"
+        },
+        "roadmap": {
+          "phase1": "Token deployment and integration into Amoarte.net ecosystem (Completed Q2 2023)",
+          "phase2": "Platform expansion and certification system development (Ongoing 2024–2025)",
+          "phase3": "Governance and DAO preparation (Planned Q1 2026)",
+          "phase4": "Liquidity pool and exchange visibility (Planned Q4 2026)",
+          "phase5": "Cross-chain art certification bridge (Planned 2027)"
+        }
+      }
     }
-  ]
+  ],
+  "tags": {
+    "art": {
+      "name": "Art & Collectibles",
+      "description": "Tokens supporting art-related ecosystems, digital certification, and creative economies."
+    },
+    "utility": {
+      "name": "Utility Token",
+      "description": "Tokens used internally within a specific platform for access, governance, or reward purposes."
+    },
+    "ecosystem": {
+      "name": "Ecosystem Token",
+      "description": "Tokens representing functional or operational components of a decentralized platform."
+    },
+    "verified": {
+      "name": "Verified Contract",
+      "description": "Token contract verified on BaseScan with matching source code."
+    }
+  }
 }
