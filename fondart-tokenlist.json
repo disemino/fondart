@@ -36,8 +36,6 @@
         "updateDate": "2025-10-14",
         "maxSupply": "1000000000",
         "note": "No exchange listing. Internal utility."
-        /* <= mantieni il totale delle chiavi in extensions <= 10,
-           e ogni valore stringa <= 42 caratteri */
       }
     }
   ]
